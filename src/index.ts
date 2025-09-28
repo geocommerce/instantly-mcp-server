@@ -78,6 +78,8 @@ const server = new Server(
   { name: 'instantly-mcp', version: '0.1.0' },
   { capabilities: { tools: {} } }
 );
+export { server };
+
 
 // Register tools with the server
 server.tool(listCampaigns);
